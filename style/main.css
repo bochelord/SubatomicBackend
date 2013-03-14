@@ -1,0 +1,28 @@
+/*!
+ * Subatomic Inc Backend style
+ *
+ * Copyright 2013 Subatomic-inc 
+ * 
+ * 
+ *
+ * Designed as an override for bootstrap 
+ */
+
+body{
+	font-family:'abel';
+}
+
+/* bootstrap overrides */
+
+
+
+
+
+.nav-header-backend {
+  display: block;
+  padding: 3px 15px;
+  font-size: 24pt;
+  line-height: 100px;
+  color: #999999;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);  
+}
