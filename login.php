@@ -99,13 +99,13 @@ Form Code End (see html-form-guide.com for more info.)
 
                     <div class="span4 social">
                         <a href="#" class="circle facebook">
-                            <img src="img/face.png" alt="">
+                            <img src="clean_bootstrap/img/face.png" alt="">
                         </a>
                          <a href="#" class="circle twitter">
-                            <img src="img/twt.png" alt="">
+                            <img src="clean_bootstrap/img/twt.png" alt="">
                         </a>
                          <a href="#" class="circle gplus">
-                            <img src="img/gplus.png" alt="">
+                            <img src="clean_bootstrap/img/gplus.png" alt="">
                         </a>
                     </div>
                 </div>
