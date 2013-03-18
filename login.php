@@ -33,7 +33,7 @@ if(isset($_POST['submitted']))
 <body>
 
 <div class="header">
-  <img src="../wp-content/themes/sub/library/images/logo.png">
+  <img src="../../wp-content/themes/sub/library/images/logo.png">
 </div>
 
 
