@@ -95,21 +95,29 @@ if(isset($_POST['submitted']))
                 </div>
 
                 <div class="span12 footer">
-                    <form>
-                        <input type="text" placeholder="Email">
-                        <input type="password" placeholder="Password">
-                        <input type="submit" placeholder="Confirm Password" value="sign in">
+                    <form id='login' action='<?php echo $fgmembersite->GetSelfScript(); ?>' method='post' accept-charset='UTF-8'>
+                        <fieldset >
+
+                            <input type='hidden' name='submitted' id='submitted' value='1'/>
+                            <div><span class='alert alert-error'><?php echo $fgmembersite->GetErrorMessage(); ?></span></div>
+
+
+                            <input type="text" placeholder="username" name='username' id='username' value='<?php echo $fgmembersite->SafeDisplay('username') ?>' maxlength="50" />
+                            <span id='login_username_errorloc' class='error'></span>
+                            <input type="password" placeholder="password" name='password' id='password' maxlength="50" />
+                            <span id='login_password_errorloc' class='error'></span>
+                            <input type="submit" placeholder="submit" name='Submit' value="log in">
                     </form>
                 </div>
 
                 <div class="span12 proof">
                     <div class="span5 remember">
-                        <label class="checkbox">
+                        <!-- <label class="checkbox">
                             <input type="checkbox"> Remember me
-                        </label>
-                        <a href="reset.html">Forgot password?</a>
+                        </label> -->
+                        <a href="reset-pwd-req.php">Forgot password?</a>
                     </div>
-                    
+
                 </div>
             </div>
         </div>
@@ -118,33 +126,33 @@ if(isset($_POST['submitted']))
 
 
 <!-- Form Code Start -->
-<div id='fg_membersite'>
-<form id='login' action='<?php echo $fgmembersite->GetSelfScript(); ?>' method='post' accept-charset='UTF-8'>
+
+<!-- <form id='login' action='<?php echo $fgmembersite->GetSelfScript(); ?>' method='post' accept-charset='UTF-8'>
 <fieldset >
-<legend>Login</legend>
+    <legend>Login</legend>
 
-<input type='hidden' name='submitted' id='submitted' value='1'/>
+    <input type='hidden' name='submitted' id='submitted' value='1'/>
 
-<div class='short_explanation'>* required fields</div>
+    <div class='short_explanation'>* required fields</div>
 
-<div><span class='error'><?php echo $fgmembersite->GetErrorMessage(); ?></span></div>
-<div class='container'>
-    <label for='username' >UserName*:</label><br/>
-    <input type='text' name='username' id='username' value='<?php echo $fgmembersite->SafeDisplay('username') ?>' maxlength="50" /><br/>
-    <span id='login_username_errorloc' class='error'></span>
-</div>
-<div class='container'>
-    <label for='password' >Password*:</label><br/>
-    <input type='password' name='password' id='password' maxlength="50" /><br/>
-    <span id='login_password_errorloc' class='error'></span>
-</div>
+    <div><span class='error'><?php echo $fgmembersite->GetErrorMessage(); ?></span></div>
+    <div class='container'>
+        <label for='username' >UserName*:</label><br/>
+        <input type='text' name='username' id='username' value='<?php echo $fgmembersite->SafeDisplay('username') ?>' maxlength="50" /><br/>
+        <span id='login_username_errorloc' class='error'></span>
+    </div>
+    <div class='container'>
+        <label for='password' >Password*:</label><br/>
+        <input type='password' name='password' id='password' maxlength="50" /><br/>
+        <span id='login_password_errorloc' class='error'></span>
+    </div>
 
-<div class='container'>
-    <input type='submit' name='Submit' value='Submit' />
-</div>
-<div class='short_explanation'><a href='reset-pwd-req.php'>Forgot Password?</a></div>
+    <div class='container'>
+        <input type='submit' name='Submit' value='Submit' />
+    </div>
+    <div class='short_explanation'><a href='reset-pwd-req.php'>Forgot Password?</a></div>
 </fieldset>
-</form>
+</form> -->
 <!-- client-side Form Validations:
 Uses the excellent form validation script from JavaScript-coder.com-->
 
@@ -173,7 +181,8 @@ Form Code End (see html-form-guide.com for more info.)
             <div class="row info">
                 <div class="span6 residence">
                     <ul>
-                        <li>Subatomic, Waterlooplein 125</li>
+                        <li>Subatomic </li>
+                        <li>Waterlooplein,125 </li>
                         <li>1011 PG Amsterdam, Netherlands</li>
                     </ul>
                 </div>
@@ -187,19 +196,19 @@ Form Code End (see html-form-guide.com for more info.)
                 <div class="span12">
                     <div class="row social">
                         <div class="span12">
-                            <a href="#" class="facebook">
+                            <a href="http://www.facebook.com/subatomicnl" class="facebook">
                                 <span class="socialicons ico1"></span>
                                 <span class="socialicons_h ico1h"></span>
                             </a>
-                            <a href="#" class="twitter">
+                            <a href="http://www.twitter.com/subatomicnl" class="twitter">
                                 <span class="socialicons ico2"></span>
                                 <span class="socialicons_h ico2h"></span>
                             </a>
-                            <a href="#" class="gplus">
+                            <a href="http://gplus.to/subatomicnl" class="gplus">
                                 <span class="socialicons ico3"></span>
                                 <span class="socialicons_h ico3h"></span>
                             </a>
-                            <a href="#" class="pinterest">
+                            <a href="http://pinterest.com/subatomicnl" class="pinterest">
                                 <span class="socialicons ico5"></span>
                                 <span class="socialicons_h ico5h"></span>
                             </a>

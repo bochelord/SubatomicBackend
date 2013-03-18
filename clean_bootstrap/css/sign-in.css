@@ -1,9 +1,9 @@
 /* Sign In Option 1 */
 #sign_in1{
-    background: url("../img/backgrounds/aqua.jpg")  no-repeat;
+    background: url("../img/backgrounds/aqua_atomic.jpg")  no-repeat;
     display: block;
     height: 540px;
-    margin-bottom: 90px;
+    /*margin-bottom: 90px;*/
     margin-top: -35px;
     -webkit-background-size: cover;
     -moz-background-size: cover;
