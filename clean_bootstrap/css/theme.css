@@ -5,7 +5,7 @@ body {
 	position: relative;
 	background: #DDDCE2 url(../img/body_bg.jpg) repeat left top;
 	-webkit-font-smoothing: antialiased;
-	font-family: 'Lato', sans-serif !important;
+	font-family: 'Cuprum', sans-serif !important;
 	padding-top: 107px;
 }
 @media (max-width: 979px) {
@@ -18,7 +18,7 @@ input[type="text"],
 input[type="password"], 
 input[type="submit"],
 textarea {
-	font-family: 'Lato', Helvetica;
+	font-family: 'Cuprum', Helvetica;
 }
 
 /* Navbar
@@ -200,7 +200,7 @@ header {
 	padding: 8px 20px;
 	border-radius: 3px;
 	font-size: 14px;
-	font-family: Lato !important;
+	font-family: Cuprum !important;
 	width: 80%;
 	-webkit-transition: background-color .2s linear;
 	-moz-transition: background-color .2s linear;

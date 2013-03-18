@@ -21,20 +21,100 @@ if(isset($_POST['submitted']))
       <link rel="stylesheet" type="text/css" href="clean_bootstrap/css/bootstrap.css" />
       <link rel="stylesheet" type="text/css" href="clean_bootstrap/css/theme.css" />
 
-      <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,900,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
+      <!-- <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,900,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'> -->
+
+      <link href='http://fonts.googleapis.com/css?family=Cuprum:300,400,700,900,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
 
       <link rel="stylesheet" type="text/css" href="clean_bootstrap/css/lib/animate.css" media="screen, projection">
       <link rel="stylesheet" href="clean_bootstrap/css/sign-in.css" type="text/css" media="screen" />
-
+      <link rel="stylesheet" href="clean_bootstrap/css/services.css" type="text/css" media="screen" />
+      <!-- <link rel="stylesheet" href="clean_bootstrap/css/lib/flexslider.css" type="text/css" media="screen" /> -->
       <!-- End Styles -->
 
       <script type='text/javascript' src='scripts/gen_validatorv31.js'></script>
 </head>
-<body>
+<body style="padding-top: 0px;">
 
-<div class="header">
-  <img src="../../wp-content/themes/sub/library/images/logo.png">
-</div>
+
+<!-- Clean Header Start -->
+<div class="navbar navbar-inverse navbar-static-top">
+      <div class="navbar-inner">
+        <div class="container">
+            <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </a>
+            <a class="brand" href="index.php">
+                <img src="images/logo_w.png">
+            </a>
+            <div class="nav-collapse collapse">
+                <ul class="nav pull-right">
+                    <li><a href="index.php">HOME</a></li>
+                    <li><a href="about-us.html">ABOUT NUCLEUS</a></li>                  
+                    
+                    <li><a class="btn-header active" href="login.php">Log in</a></li>
+                </ul>
+            </div>
+        </div>
+      </div>
+    </div>
+<!-- Clean Header End-->
+
+
+
+
+
+<!-- Log in from Clean Bootstrap-->
+<!-- Sign In Option 1 -->
+    <div id="sign_in1">
+        <div class="container">
+            <div class="row">
+                <div class="span12 header">
+                    <h4>Log in to your account</h4>
+                    <p>
+                        There are many variations of passages of Lorem alteration in some form  injected humour these randomised words .</p>
+
+                    <div class="span4 social">
+                        <a href="#" class="circle facebook">
+                            <img src="clean_bootstrap/img/face.png" alt="">
+                        </a>
+                         <a href="#" class="circle twitter">
+                            <img src="clean_bootstrap/img/twt.png" alt="">
+                        </a>
+                         <a href="#" class="circle gplus">
+                            <img src="clean_bootstrap/img/gplus.png" alt="">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="span3 division">
+                    <div class="line l"></div>
+                    <span>or</span>
+                    <div class="line r"></div>
+                </div>
+
+                <div class="span12 footer">
+                    <form>
+                        <input type="text" placeholder="Email">
+                        <input type="password" placeholder="Password">
+                        <input type="submit" placeholder="Confirm Password" value="sign in">
+                    </form>
+                </div>
+
+                <div class="span12 proof">
+                    <div class="span5 remember">
+                        <label class="checkbox">
+                            <input type="checkbox"> Remember me
+                        </label>
+                        <a href="reset.html">Forgot password?</a>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- Log in from Clean Bootstrap END-->
 
 
 <!-- Form Code Start -->
@@ -87,60 +167,56 @@ Form Code End (see html-form-guide.com for more info.)
 -->
 
 
-<!-- Log in from Clean Bootstrap-->
-<!-- Sign In Option 1 -->
-    <div id="sign_in1">
+ <!-- starts footer -->
+    <footer id="footer">
         <div class="container">
-            <div class="row">
-                <div class="span12 header">
-                    <h4>Log in to your account</h4>
-                    <p>
-                        There are many variations of passages of Lorem alteration in some form  injected humour these randomised words .</p>
-
-                    <div class="span4 social">
-                        <a href="#" class="circle facebook">
-                            <img src="clean_bootstrap/img/face.png" alt="">
-                        </a>
-                         <a href="#" class="circle twitter">
-                            <img src="clean_bootstrap/img/twt.png" alt="">
-                        </a>
-                         <a href="#" class="circle gplus">
-                            <img src="clean_bootstrap/img/gplus.png" alt="">
-                        </a>
-                    </div>
+            <div class="row info">
+                <div class="span6 residence">
+                    <ul>
+                        <li>Subatomic, Waterlooplein 125</li>
+                        <li>1011 PG Amsterdam, Netherlands</li>
+                    </ul>
                 </div>
-
-                <div class="span3 division">
-                    <div class="line l"></div>
-                    <span>or</span>
-                    <div class="line r"></div>
-                </div>
-
-                <div class="span12 footer">
-                    <form>
-                        <input type="text" placeholder="Email">
-                        <input type="password" placeholder="Password">
-                        <input type="submit" placeholder="Confirm Password" value="sign in">
-                    </form>
-                </div>
-
-                <div class="span12 proof">
-                    <div class="span5 remember">
-                        <label class="checkbox">
-                            <input type="checkbox"> Remember me
-                        </label>
-                        <a href="reset.html">Forgot password?</a>
-                    </div>
-
-                    <div class="span3 dosnt">
-                        <span>Don’t have an account?</span>
-                        <a href="sign-up.html">Sign up</a>
-                    </div>
+                <div class="span5 touch">
+                    <ul>
+                        <li><strong>General mail</strong><a href="#"> info@subatomic.nl</a></li>
+                    </ul>
                 </div>
             </div>
+            <div class="row credits">
+                <div class="span12">
+                    <div class="row social">
+                        <div class="span12">
+                            <a href="#" class="facebook">
+                                <span class="socialicons ico1"></span>
+                                <span class="socialicons_h ico1h"></span>
+                            </a>
+                            <a href="#" class="twitter">
+                                <span class="socialicons ico2"></span>
+                                <span class="socialicons_h ico2h"></span>
+                            </a>
+                            <a href="#" class="gplus">
+                                <span class="socialicons ico3"></span>
+                                <span class="socialicons_h ico3h"></span>
+                            </a>
+                            <a href="#" class="pinterest">
+                                <span class="socialicons ico5"></span>
+                                <span class="socialicons_h ico5h"></span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="row copyright">
+                        <div class="span12">
+                            © 2013 Subatomic<br> Made with ♥ in Amsterdam by <a href="http://twitter.com/bochelord" target="_blank">@bochelord</a>
+                        </div>
+                    </div>
+                </div>            
+            </div>
         </div>
-    </div>
-<!-- Log in from Clean Bootstrap END-->
+    </footer>
+
+
+
 
     <script src="http://code.jquery.com/jquery-latest.js"></script>
     <script src="js/bootstrap.min.js"></script>
