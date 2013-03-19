@@ -53,7 +53,7 @@ if(isset($_POST['submitted']))
                     <!-- <li><a href="index.php">HOME</a></li> -->
                     <li><a href="about-us.html">ABOUT NUCLEUS</a></li>                  
                     
-                    <li><a class="btn-header active" href="login.php">Log in</a></li>
+                    <!-- <li><a class="btn-header active" href="login.php">Log in</a></li> -->
                 </ul>
             </div>
         </div>
@@ -99,7 +99,7 @@ if(isset($_POST['submitted']))
                         <fieldset >
 
                             <input type='hidden' name='submitted' id='submitted' value='1'/>
-                            <div><span class='error'><span class='alert alert-error'><?php echo $fgmembersite->GetErrorMessage(); ?></span></span><br></div>
+                            <div><span class='error'><span class='label label-important'><?php echo $fgmembersite->GetErrorMessage(); ?></span></span><br></div>
 
 
                             <input type="text" placeholder="username" name='username' id='username' value='<?php echo $fgmembersite->SafeDisplay('username') ?>' maxlength="50" />
@@ -163,9 +163,9 @@ Uses the excellent form validation script from JavaScript-coder.com-->
     frmvalidator.EnableOnPageErrorDisplay();
     frmvalidator.EnableMsgsTogether();
 
-    frmvalidator.addValidation("username","req","<br>Please provide your username<br>");
+    frmvalidator.addValidation("username","req","<br><span class='label label-important'>Please provide your username</span><br>");
     
-    frmvalidator.addValidation("password","req","<br>Please provide the password<br>");
+    frmvalidator.addValidation("password","req","<br><span class='label label-important'>Please provide the password</span><br>");
 
 // ]]>
 </script>
@@ -216,7 +216,7 @@ Form Code End (see html-form-guide.com for more info.)
                     </div>
                     <div class="row copyright">
                         <div class="span12">
-                            nucleus v0.4<br> ©2013 Subatomic<br><br> Made with ♥ in Amsterdam<br> Crafted by <a href="http://twitter.com/bochelord" target="_blank">@bochelord</a>
+                            <img src="images/logo_mini.png"><br>nucleus v0.4<br>©2013 Subatomic<br><br>Made with ♥ in Amsterdam<br> Crafted by <a href="http://twitter.com/bochelord" target="_blank">@bochelord</a>
                         </div>
                     </div>
                 </div>            
