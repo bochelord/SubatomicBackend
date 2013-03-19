@@ -178,7 +178,7 @@ Form Code End (see html-form-guide.com for more info.)
  <!-- starts footer -->
     <footer id="footer">
         <div class="container">
-            <div class="row info">
+            <!-- <div class="row info">
                 <div class="span6 residence">
                     <ul>
                         <li>Subatomic </li>
@@ -191,7 +191,7 @@ Form Code End (see html-form-guide.com for more info.)
                         <li><strong>General mail</strong><a href="#"> info@subatomic.nl</a></li>
                     </ul>
                 </div>
-            </div>
+            </div> -->
             <div class="row credits">
                 <div class="span12">
                     <div class="row social">
