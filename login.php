@@ -50,7 +50,7 @@ if(isset($_POST['submitted']))
             </a>
             <div class="nav-collapse collapse">
                 <ul class="nav pull-right">
-                    <li><a href="index.php">HOME</a></li>
+                    <!-- <li><a href="index.php">HOME</a></li> -->
                     <li><a href="about-us.html">ABOUT NUCLEUS</a></li>                  
                     
                     <li><a class="btn-header active" href="login.php">Log in</a></li>
@@ -71,9 +71,9 @@ if(isset($_POST['submitted']))
         <div class="container">
             <div class="row">
                 <div class="span12 header">
-                    <h4>Log in to your account</h4>
+                    <h4>nucleus v0.4 welcomes you</h4>
                     <p>
-                        There are many variations of passages of Lorem alteration in some form  injected humour these randomised words .</p>
+                        Please identify yourself allowing nucleus to grant you access</p>
 
                     <div class="span4 social">
                         <a href="#" class="circle facebook">
@@ -216,7 +216,7 @@ Form Code End (see html-form-guide.com for more info.)
                     </div>
                     <div class="row copyright">
                         <div class="span12">
-                            © 2013 Subatomic<br> Made with ♥ in Amsterdam by <a href="http://twitter.com/bochelord" target="_blank">@bochelord</a>
+                            nucleus v0.4<br> ©2013 Subatomic<br><br> Made with ♥ in Amsterdam<br> Crafted by <a href="http://twitter.com/bochelord" target="_blank">@bochelord</a>
                         </div>
                     </div>
                 </div>            

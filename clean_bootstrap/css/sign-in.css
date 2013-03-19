@@ -26,7 +26,7 @@
     text-shadow: 1px 1px 0px #143C4E;
 }
 #sign_in1 .header p{
-    font-style: italic;
+    /*font-style: italic;*/
     font-size: 17px;
     margin: 0 0 40px 0;
 }
