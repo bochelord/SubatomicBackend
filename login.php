@@ -99,7 +99,7 @@ if(isset($_POST['submitted']))
                         <fieldset >
 
                             <input type='hidden' name='submitted' id='submitted' value='1'/>
-                            <div><span class='alert alert-error'><?php echo $fgmembersite->GetErrorMessage(); ?></span></div>
+                            <div><span class='error'><span class='alert alert-error'><?php echo $fgmembersite->GetErrorMessage(); ?></span></span><br></div>
 
 
                             <input type="text" placeholder="username" name='username' id='username' value='<?php echo $fgmembersite->SafeDisplay('username') ?>' maxlength="50" />
@@ -163,9 +163,9 @@ Uses the excellent form validation script from JavaScript-coder.com-->
     frmvalidator.EnableOnPageErrorDisplay();
     frmvalidator.EnableMsgsTogether();
 
-    frmvalidator.addValidation("username","req","Please provide your username");
+    frmvalidator.addValidation("username","req","<br>Please provide your username<br>");
     
-    frmvalidator.addValidation("password","req","Please provide the password");
+    frmvalidator.addValidation("password","req","<br>Please provide the password<br>");
 
 // ]]>
 </script>
