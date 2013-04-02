@@ -38,7 +38,7 @@ class FGMembersite
     //-----Initialization -------
     function FGMembersite()
     {
-        $this->sitename = 'subatomic-inc.com';
+        $this->sitename = 'subatomic.nl';
         $this->rand_key = '0iQx5oBk66oVZep';
     }
     
