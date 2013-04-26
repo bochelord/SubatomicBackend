@@ -82,7 +82,7 @@ if(isset($_POST['submitted']))
                 <div class="span6 flexslider">
                       <ul class="slides">
                         <li>
-                          <img src="../../wp-content/uploads/2013/01/website-New-Years-2.png" />
+                          <img src="images/newyear_splash.png" />
                         </li>
                         <li>
                           <img src="clean_bootstrap/img/about_slide1.jpg" />
@@ -129,11 +129,11 @@ if(isset($_POST['submitted']))
                     </div>
 
                     <div class="span6 bio_box bio_boxr">
-                        <img src="clean_bootstrap/img/ale.png" alt="">
+                        <img src="clean_bootstrap/img/Vincent_Green.png" alt="">
                         <div class="info">
-                            <p class="name">Alejandra Galvan Castillo</p>
-                            <p class="area">Creative Director</p>
-                            <a href="#" class="facebook">
+                            <p class="name">Vincent van Zutphen</p>
+                            <p class="area">Intern Director</p>
+                            <a href="http://www.facebook.com/vincent.vanzutphen.9" class="facebook">
                                 <span class="socialicons ico1"></span>
                                 <span class="socialicons_h ico1h"></span>
                             </a>
