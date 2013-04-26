@@ -35,7 +35,10 @@ if(isset($_POST['submitted']))
     <![endif]-->
 </head>
 <body>
-    <div class="navbar navbar-inverse navbar-static-top">
+
+
+    <!-- Clean Header Start -->
+<div class="navbar navbar-inverse navbar-static-top">
       <div class="navbar-inner">
         <div class="container">
             <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
@@ -43,39 +46,24 @@ if(isset($_POST['submitted']))
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </a>
-            <a class="brand" href="index-2.html">
-                <strong>CLEAN CANVAS</strong>
+            <a class="brand" href="index.php">
+                <img src="images/logo_w.png">
             </a>
             <div class="nav-collapse collapse">
                 <ul class="nav pull-right">
-                    <li><a href="index-2.html">HOME</a></li>
-                    <li><a href="about-us.html" class="active">ABOUT US</a></li>
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                            PAGES
-                            <b class="caret"></b>
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a href="features.html">Features</a></li>
-                            <li><a href="services.html">Services</a></li>
-                            <li><a href="portfolio.html">Portfolio</a></li>
-                            <li><a href="portfolio-item.html">Portfolio Item</a></li>
-                            <li><a href="coming-soon.html">Coming Soon</a></li>
-                            <li><a href="sign-in.html">Sign in</a></li>
-                            <li><a href="sign-up.html">Sign up</a></li>
-                            <li><a href="backgrounds.html">Backgrounds</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="pricing.html">PRICING</a></li>
-                    <li><a href="contact.html">CONTACT US</a></li>
-                    <li><a href="blog.html">BLOG</a></li>
-                    <li><a class="btn-header" href="sign-up.html">Sign up</a></li>
-                    <li><a class="btn-header" href="sign-in.html">Sign in</a></li>
+                    <!-- <li><a href="index.php">HOME</a></li> -->
+                    <li><a href="about.php">ABOUT NUCLEUS</a></li>                  
+                    
+                    <!-- <li><a class="btn-header active" href="login.php">Log in</a></li> -->
                 </ul>
             </div>
         </div>
       </div>
     </div>
+<!-- Clean Header End-->
+
+
+
 
     <div id="aboutus">
         <div class="container">
@@ -322,10 +310,13 @@ if(isset($_POST['submitted']))
         </div>
     </footer>
 
+
+
     <script src="http://code.jquery.com/jquery-latest.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/theme.js"></script>
-    <script type="text/javascript" src="js/flexslider.js"></script>
+    <script src="clean_bootstrap/js/bootstrap.min.js"></script>
+    <script src="clean_bootstrap/js/theme.js"></script>
+
+    <script type="text/javascript" src="clean_bootstrap/js/flexslider.js"></script>
 </body>
 
 

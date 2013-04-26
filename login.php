@@ -51,7 +51,7 @@ if(isset($_POST['submitted']))
             <div class="nav-collapse collapse">
                 <ul class="nav pull-right">
                     <!-- <li><a href="index.php">HOME</a></li> -->
-                    <li><a href="about-us.html">ABOUT NUCLEUS</a></li>                  
+                    <li><a href="about.php">ABOUT NUCLEUS</a></li>                  
                     
                     <!-- <li><a class="btn-header active" href="login.php">Log in</a></li> -->
                 </ul>
@@ -228,8 +228,8 @@ Form Code End (see html-form-guide.com for more info.)
 
 
     <script src="http://code.jquery.com/jquery-latest.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/theme.js"></script>
+    <script src="clean_bootstrap/js/bootstrap.min.js"></script>
+    <script src="clean_bootstrap/js/theme.js"></script>
 
 </body>
 </html>

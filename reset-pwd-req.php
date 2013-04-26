@@ -47,7 +47,7 @@ if(isset($_POST['submitted']))
             <div class="nav-collapse collapse">
                 <ul class="nav pull-right">
                     <!-- <li><a href="index.php">HOME</a></li> -->
-                    <li><a href="about-us.html">ABOUT NUCLEUS</a></li>                  
+                    <li><a href="about.php">ABOUT NUCLEUS</a></li>                  
                     
                     <!-- <li><a class="btn-header active" href="login.php">Log in</a></li> -->
                 </ul>
