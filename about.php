@@ -68,7 +68,7 @@ if(isset($_POST['submitted']))
     <div id="aboutus">
         <div class="container">
             <div class="section_header">
-                <h3>About Us</h3>
+                <h3>About Nucleus v0.4</h3>
             </div>
             <div class="row">
                 <div class="span6 intro">
@@ -82,13 +82,13 @@ if(isset($_POST['submitted']))
                 <div class="span6 flexslider">
                       <ul class="slides">
                         <li>
-                          <img src="img/about_slide1.jpg" />
+                          <img src="../../wp-content/uploads/2013/01/website-New-Years-2.png" />
                         </li>
                         <li>
-                          <img src="img/about_slide1.jpg" />
+                          <img src="clean_bootstrap/img/about_slide1.jpg" />
                         </li>
                         <li>
-                          <img src="img/about_slide1.jpg" />
+                          <img src="clean_bootstrap/img/about_slide1.jpg" />
                         </li>
                       </ul>
                 </div>
@@ -105,7 +105,7 @@ if(isset($_POST['submitted']))
             <div class="row people">
                 <div class="row row1">
                     <div class="span6 bio_box">
-                        <img src="img/ale.png" alt="">
+                        <img src="clean_bootstrap/img/ale.png" alt="">
                         <div class="info">
                             <p class="name">Alejandra Galvan Castillo</p>
                             <p class="area">Creative Director</p>
@@ -129,7 +129,7 @@ if(isset($_POST['submitted']))
                     </div>
 
                     <div class="span6 bio_box bio_boxr">
-                        <img src="img/ale.png" alt="">
+                        <img src="clean_bootstrap/img/ale.png" alt="">
                         <div class="info">
                             <p class="name">Alejandra Galvan Castillo</p>
                             <p class="area">Creative Director</p>
@@ -155,7 +155,7 @@ if(isset($_POST['submitted']))
 
                 <div class="row row1">
                     <div class="span6 bio_box">
-                        <img src="img/ale.png" alt="">
+                        <img src="clean_bootstrap/img/ale.png" alt="">
                         <div class="info">
                             <p class="name">Alejandra Galvan Castillo</p>
                             <p class="area">Creative Director</p>
@@ -179,7 +179,7 @@ if(isset($_POST['submitted']))
                     </div>
 
                     <div class="span6 bio_box bio_boxr">
-                        <img src="img/ale.png" alt="">
+                        <img src="clean_bootstrap/img/ale.png" alt="">
                         <div class="info">
                             <p class="name">Alejandra Galvan Castillo</p>
                             <p class="area">Creative Director</p>
@@ -233,15 +233,15 @@ if(isset($_POST['submitted']))
 
                 <div class="span7 areas">
                     <div class="circle active">
-                        <img src="img/plan.png" />
+                        <img src="clean_bootstrap/img/plan.png" />
                         <span>Plan</span>
                     </div>
                     <div class="circle">
-                        <img src="img/develop.png" />
+                        <img src="clean_bootstrap/img/develop.png" />
                         <span>Develop</span>
                     </div>
                     <div class="circle last_circle">
-                        <img src="img/design.png" />
+                        <img src="clean_bootstrap/img/design.png" />
                         <span>Design</span>
                     </div>
                 </div>
@@ -249,60 +249,49 @@ if(isset($_POST['submitted']))
         </div>
     </div>
 
-    <!-- starts footer -->
+     <!-- starts footer -->
     <footer id="footer">
         <div class="container">
             <div class="row info">
                 <div class="span6 residence">
                     <ul>
-                        <li>2301 East Lamar Blvd. Suite 140. City, Arlington.</li>
-                        <li>United States, Zip Code TX 76006.</li>
+                        <li><img src="images/logo_w.png"></li>
+                        <li>Subatomic </li>
+                        <li>Waterlooplein,125 </li>
+                        <li>1011 PG Amsterdam, Netherlands</li>
                     </ul>
                 </div>
                 <div class="span5 touch">
                     <ul>
-                        <li><strong>P.</strong> 1 817 274 2933</li>
-                        <li><strong>E.</strong><a href="#"> bootstrap@twitter.com</a></li>
+                        <li><strong>General mail</strong><a href="#"> info@subatomic.nl</a></li>
                     </ul>
                 </div>
-            </div>
+            </div> 
             <div class="row credits">
                 <div class="span12">
                     <div class="row social">
                         <div class="span12">
-                            <a href="#" class="facebook">
+                            <a href="http://www.facebook.com/subatomicnl" class="facebook">
                                 <span class="socialicons ico1"></span>
                                 <span class="socialicons_h ico1h"></span>
                             </a>
-                            <a href="#" class="twitter">
+                            <a href="http://www.twitter.com/subatomicnl" class="twitter">
                                 <span class="socialicons ico2"></span>
                                 <span class="socialicons_h ico2h"></span>
                             </a>
-                            <a href="#" class="gplus">
+                            <a href="http://gplus.to/subatomicnl" class="gplus">
                                 <span class="socialicons ico3"></span>
                                 <span class="socialicons_h ico3h"></span>
                             </a>
-                            <a href="#" class="flickr">
-                                <span class="socialicons ico4"></span>
-                                <span class="socialicons_h ico4h"></span>
-                            </a>
-                            <a href="#" class="pinterest">
+                            <a href="http://pinterest.com/subatomicnl" class="pinterest">
                                 <span class="socialicons ico5"></span>
                                 <span class="socialicons_h ico5h"></span>
-                            </a>
-                            <a href="#" class="dribble">
-                                <span class="socialicons ico6"></span>
-                                <span class="socialicons_h ico6h"></span>
-                            </a>
-                            <a href="#" class="behance">
-                                <span class="socialicons ico7"></span>
-                                <span class="socialicons_h ico7h"></span>
                             </a>
                         </div>
                     </div>
                     <div class="row copyright">
                         <div class="span12">
-                            © 2013 Clean Canvas. All rights reserved. Theme by Detail Canvas.
+                            <img src="images/logo_mini.png"><br>nucleus v0.4<br>©2013 Subatomic<br><br>Made with ♥ in Amsterdam<br> Crafted by <a href="http://twitter.com/bochelord" target="_blank">@bochelord</a>
                         </div>
                     </div>
                 </div>            
