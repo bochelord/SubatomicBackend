@@ -344,6 +344,40 @@ if(isset($_POST['submitted']))
                     <div class="span6 bio_box bio_boxr">
                         <div class="row">
                             <div class="span3">
+                                <img src="clean_bootstrap/img/vincentz-comp.png" alt="">
+                            </div>
+                            <div class="span2">
+                                <img src="clean_bootstrap/img/VincentvzElement.png">
+                            </div>    
+                        </div>
+
+                        <div class="info">
+
+                            <div class="row">
+                                <div class="span2">
+                                    <p class="name">Vincent van Zutphen</p>
+                                    <p class="area">Intern</p>
+                                </div>
+                                <div class="span2">
+                                    <a href="#" class="facebook">
+                                        <span class="socialicons ico1"></span>
+                                        <span class="socialicons_h ico1h"></span>
+                                    </a>
+                                    <a href="#" class="twitter">
+                                        <span class="socialicons ico2"></span>
+                                        <span class="socialicons_h ico2h"></span>
+                                    </a>
+                                </div>
+
+                            </div>
+                            <p class="desc">The second Vincent of the crew can luckily be discerned by his amazing hairdo. An intern with chlorine as his power element, Vincent is great at cleaning up ideas and oxidizing concepts into great new game designs.</p>   
+                        </div>
+                    </div>
+                </div>
+                <div class="row row1">
+                    <div class="span6 bio_box">
+                        <div class="row">
+                            <div class="span3">
                                 <img src="clean_bootstrap/img/gwyn-comp.png" alt="">
                             </div>
                             <div class="span2">
@@ -373,6 +407,7 @@ if(isset($_POST['submitted']))
                             <p class="desc">Gwyn is the head of human resources at Subatomic. Her power-element is Fluorine, because, like Fluorine steals electrons she tends to steal attention from everyone. Her ability to be cute keeps stress levels in the office low.</p>   
                         </div>
                     </div>
+                </div>
                 </div>
             </div>
         </div>
