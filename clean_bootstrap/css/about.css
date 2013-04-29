@@ -62,6 +62,7 @@
 	float: right;
 }
 #team .people .bio_box img{
+	margin-left: 20px;
 	float: left;
 }
 #team .people .bio_boxr img{
@@ -76,7 +77,7 @@
 }
 #team .people .bio_box .info p.name{
 	color: #fff;
-	font-style: italic;
+	font-style: normal;
 	margin-bottom: 4px;
 	font-size: 21px;
 }
@@ -85,6 +86,13 @@
 	font-style: italic;
 	font-style: 16px;
 	margin-bottom: 18px;
+}
+#team .people .bio_box .info p.desc{
+	color: #98989A;
+	font-style: normal;
+	font-style: 14px;
+	margin-bottom: 18px;
+	text-align: justify;
 }
 #team .people .bio_box .info a {
 	margin-right: 10px;
