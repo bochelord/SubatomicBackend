@@ -88,7 +88,16 @@ if(isset($_POST['submitted']))
                           <img src="images/subatomic_pins.jpg" />
                         </li>
                         <li>
-                          <img src="clean_bootstrap/img/about_slide1.jpg" />
+                          <img src="images/subatomic_indians.jpg" />
+                        </li>
+                        <li>
+                          <img src="images/subatomic_dublin.jpg" />
+                        </li>
+                        <li>
+                          <img src="images/subatomic_goals.jpg" />
+                        </li>
+                        <li>
+                          <img src="images/subatomic_transformers.jpg" />
                         </li>
                       </ul>
                 </div>
