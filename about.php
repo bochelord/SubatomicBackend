@@ -72,12 +72,11 @@ if(isset($_POST['submitted']))
             </div>
             <div class="row">
                 <div class="span6 intro">
-                    <h6>There are many variations of passages Lorem Ipsum available, injected generators on the hidden.</h6>
+                    <h6>Nucleus is Subatomic's Backend tailor made solution.</h6>
                     <p>
-                        There are many variations of passages of Lorem Ipsum available, injected 
-                        generators on the  embarrassing hidden in the middle all the dictionary making it look like readable English. Many desktop publishing packages and web page editors.
+                        It's lighter than a full fledged CMS, more beautiful than your average backend solution and the atomic force that keeps our information safe.
                         <br /><br />
-                        There are many variations of passages of Lorem Ipsum available, but the ndictionary of over 200 Latin words, combined with a handful of models The generated Lorem Ipsum is therefore always free from repetition, the injected humour, or non-characteristic words etc.</p>
+                        There are many variations of fueling a backend like this one but Nucleus in particular is based on twitter bootstrap, a css them based on the same, php in love with MySQL and JQuery javascript library</p>
                 </div>
                 <div class="span6 flexslider">
                       <ul class="slides">
@@ -425,25 +424,24 @@ if(isset($_POST['submitted']))
     <div id="process">
         <div class="container">
             <div class="section_header">
-                <h3>Our Process</h3>
+                <h3>How we work</h3>
             </div>
             <div class="row services_circles">
                 <div class="span4 description">
                     <div class="text active">
-                        <h4>Plan what you need.</h4>
+                        <h4>Plan plan and plan.</h4>
                         <p>
-                            There are many variations of passages of  this suffered alteration in some form, by injected look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to making this the first true generator  Internet.</p>
+                            Plan.</p>
                     </div>
                     <div class="text">
-                        <h4>Develop your product or service.</h4>
+                        <h4>Developers , developers, developers.</h4>
                         <p>
-                            There are many variations of passages of  this suffered alteration in some form, by injected look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to 
-                            making this the first true generator  Internet.</p>
+                            Develop.</p>
                     </div>
                     <div class="text">
-                        <h4>Design this theme to your needs.</h4>
+                        <h4>Aestetics always with passion.</h4>
                         <p>
-                            There are many variations of passages of  this suffered alteration in some form, by injected look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to making this the first true generator  Internet.</p>
+                            Artist.</p>
                     </div>
                 </div>
 
